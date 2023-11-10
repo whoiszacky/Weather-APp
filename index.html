@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Simple Weather App</title>
+</head>
+<body>
+ 
+    <h1 class="title">THE WEATHER</h1>
+    <div id="currentDate"></div>
+<!--
+    <form>
+        <input type="text" id="text-input" name="text-input" placeholder="Enter a city">
+        <button class="button-86" onclick="logInput()" role="button">Button 86</button>
+      </form>-->
+      <form class="example" style="margin:auto;  max-width: 642px; padding: 100px;">
+        <input type="text" placeholder="Enter a city" name="search2" id="inputId">
+        <button type="submit"  onclick="getWeatherStatus()"><i class="fa fa-search"></i></button>
+      </form>
+      
+    <div class="city1">
+        <div class="cityName">
+            <h2 id="city"></h2>
+            <h1 class="degree" id="temp"></h1>
+            <img id="weatherIcon" src="" alt="Weather Icon">
+            <h3 id="condition"></h3>
+        </div>
+        <div class="cityPic"></div>
+
+    </div>
+    
+    <script type="module"  src="main.js"></script>
+    <script type="module" src="info.js"></script>
+</body>
+</html>

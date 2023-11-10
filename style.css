@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+
+body{
+    background-color:#0047FF;
+    overflow-x: hidden;
+}
+.title{
+    color: #F5F5F5;
+    font-family: "Press Start 2P", cursive;;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+#currentDate {
+    color: var(--Front_1, #F0F8FF);
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 25.975px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.975px;
+    display: inline-block;
+    float: right;
+    width: 550px; /* adjust the width as needed */
+    text-align: right;
+    margin-top: -5%;
+    margin-right: 20px;
+    
+  }
+
+h2{
+    color: #F5F5F5;
+    font-family: "Press Start 2P", cursive;;
+    text-align: center;
+    margin-top: 5%;
+}
+.degree{
+    text-align: center;
+    color: #F5F5F5;
+    font-family: "Press Start 2P", cursive;;
+   margin-top: -5px;
+}
+.city1{
+    height: 349px;
+    width: 100vw;
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
+.cityName{
+    height: 349px;
+    width: 640.308px;
+    border-radius: 58.755px;
+    background: rgba(245, 245, 245, 0.33);
+    backdrop-filter: blur(31.527042388916016px);
+    margin-left: 10%;
+    position: relative;
+    z-index: 6;
+}
+.cityPic{
+    position: absolute;
+    display: inline-flex;
+    height: 349px;
+    width: 916.521px;
+    border-radius: 58.755px;
+    background-image: url(/img/Lahti_kaupunki_hyppyrimaet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+}
+img{
+    display: block;
+    margin: auto;
+}
+#condition{
+    color: #F5F5F5;
+    font-family: "Press Start 2P", cursive;;
+    text-align: center;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+    
+  }
+  
+  form.example button {
+    float: left;
+    width: 68px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
