@@ -12,14 +12,13 @@ function hideElementOnSmallScreens() {
       bodyElement.style.display = "none";
       alert("Your screen resolution is less than 2100px. You may not be able to view this website properly.");
     } else {
-      bodyElement.style.display = "block"; // or whatever the default value is
+      bodyElement.style.display = "block"; //
     }
   }
   
   // Call the function once on load
   hideElementOnSmallScreens();
-  
-  // add an event listener to run it whenever the screen size changes
+
   window.addEventListener("resize", hideElementOnSmallScreens);
 
 import {API_KEY} from "./info.js";
